@@ -6,8 +6,10 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import './main.scss'
 import { getAbout } from './redux/actions/about.action.js';
+import { getParcours } from './redux/actions/parcours.action.js';
 
 store.dispatch(getAbout())
+store.dispatch(getParcours())
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
