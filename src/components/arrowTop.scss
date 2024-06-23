@@ -1,0 +1,27 @@
+@import '../main.scss';
+
+a.arrowTop {
+    position: fixed;
+    bottom: -200px;
+    right: 0;
+    margin: 20px;
+    background-color: $colorSecondary;
+    padding: 10px;
+    border-radius: 50px;
+    transition: .3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.69);
+
+    i {
+        font-size: 2em;
+        color: #ffffff;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &.visible {
+        bottom: 0px;
+    }
+}

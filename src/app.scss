@@ -1,0 +1,36 @@
+@import './main.scss';
+
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+section {
+  position: relative;
+  padding: 50px;
+  min-height: 100vh;
+
+  @media screen and (max-width: 480px) {
+    min-height: auto;
+    padding: 30px 10px;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin: 30px 0;
+    position: relative;
+  }
+}
+
+section.section h1::before {
+  content: "";
+  position: absolute;
+  background-color: $colorSecondary;
+  width: 50px;
+  height: 5px;
+  bottom: 0;
+}
+
+section:nth-child(even) {
+  background-color: $colorPrimary;
+}
