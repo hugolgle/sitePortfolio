@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./projectSection.scss";
-// import { realisations } from '../../public/data.json';
 import Button from "../components/button";
 import Modal from "../components/modal";
-import { useSelector } from "react-redux";
+import { useFetchData } from "../api/fetch";
+import { fetchProjectsData } from "../api/data";
 
 export default function ProjectSection() {
-  const realisations = useSelector((state) => state.projectReducer || []);
-
   const [modalIndex, setModalIndex] = useState(null);
   const [btnFilter, setBtnFilter] = useState("");
+
+  // --------------------------------------------
+  const { data } = useFetchData(fetchProjectsData);
+
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    return <p>Aucune donnée disponible</p>;
+  }
+  // --------------------------------------------
 
   const handleOpenModal = (index) => {
     setModalIndex(index);
@@ -43,7 +49,7 @@ export default function ProjectSection() {
     setBtnFilter(ecole);
   };
 
-  const filteredRealisations = realisationFilter(realisations, btnFilter);
+  const filteredRealisations = realisationFilter(data, btnFilter);
 
   return (
     <section id="project" className="section project">
@@ -77,9 +83,9 @@ export default function ProjectSection() {
             onClick={() => handleOpenModal(index)}
           >
             <div className="img">
-              {/* <img src={realisation.image} alt={realisation.title} /> */}
+              <img src={realisation.img} alt={realisation.title} />
               <div className="containHover">
-                {/* <p>{realisation.date}</p> */}
+                <p>{realisation.date}</p>
                 <p>{getFirstSentence(realisation.mission)}</p>
               </div>
             </div>
@@ -97,75 +103,52 @@ export default function ProjectSection() {
           titre={filteredRealisations[modalIndex].title}
         >
           <div className="containModal">
-            {filteredRealisations[modalIndex].mission ? (
+            {filteredRealisations[modalIndex].mission && (
               <p>
                 <b>Mission:</b> {filteredRealisations[modalIndex].mission}
               </p>
-            ) : (
-              ""
             )}
           </div>
-          {/* <div className="containModal">
-                        {filteredRealisations[modalIndex].context ?
-                            (<p><b>Contexte :</b> {filteredRealisations[modalIndex].context}</p>
-                            ) : (
-                                ""
-                            )
-                        }
-                    </div> */}
-          {filteredRealisations[modalIndex].ecole === "BTS SIO" ? (
-            <>
-              <div className="containModal">
-                {filteredRealisations[modalIndex].skills ? (
-                  <p>
-                    <b>Compétence :</b>{" "}
-                    {filteredRealisations[modalIndex].skills}
-                  </p>
-                ) : (
-                  ""
+          <div className="containModal">
+            {filteredRealisations[modalIndex].context && (
+              <p>
+                <b>Contexte :</b> {filteredRealisations[modalIndex].context}
+              </p>
+            )}
+          </div>
+          <div className="containModal">
+            {filteredRealisations[modalIndex].technology && (
+              <p>
+                <b>Technologies:</b>{" "}
+                {filteredRealisations[modalIndex].technology.join(", ")}
+              </p>
+            )}
+          </div>
+          <div className="containModal">
+            {filteredRealisations[modalIndex].skills && (
+              <div>
+                <b>Compétences:</b>
+                {filteredRealisations[modalIndex].skills.map(
+                  (skill, skillIndex) => (
+                    <p key={skillIndex}>- {skill}</p>
+                  )
                 )}
               </div>
-              <div className="containModal">
-                <a
-                  href={filteredRealisations[modalIndex].link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ressources
-                </a>{" "}
-                -{" "}
-                <a
-                  href="./images/fichedecompetences.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Fiche de compétences
-                </a>
-              </div>
-            </>
-          ) : null}
-          {filteredRealisations[modalIndex].ecole === "OpenClassrooms" ? (
-            <>
-              <div className="containModal">
-                <p>
-                  <b>Technologies:</b> {filteredRealisations[modalIndex].techno}
-                </p>
-              </div>
-              {/* <div className="containModal">
-                                <b>Compétences:</b>
-                                {filteredRealisations[modalIndex].skills.map((skill, skillIndex) => <p key={skillIndex}>{skill.skill}</p>)}
-                            </div> */}
-              <div className="containModal">
-                <a
-                  href={filteredRealisations[modalIndex].link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ressources
-                </a>
-              </div>
-            </>
-          ) : null}
+            )}
+          </div>
+          {filteredRealisations[modalIndex].link && (
+            <div className="containModal">
+              {filteredRealisations[modalIndex].link.map((link, linkIndex) => (
+                <div key={linkIndex}>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
+                    {link.text}
+                  </a>
+                  {linkIndex <
+                    filteredRealisations[modalIndex].link.length - 1 && ", "}
+                </div>
+              ))}
+            </div>
+          )}
         </Modal>
       )}
     </section>

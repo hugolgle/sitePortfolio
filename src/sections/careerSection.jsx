@@ -1,11 +1,15 @@
-import React from "react";
-import { useSelector } from "react-redux";
 import "./careerSection.scss";
+import { fetchCareersData } from "../api/data";
+import { useFetchData } from "../api/fetch";
 
 export default function CareerSection() {
-  const parcours = useSelector((state) => state.parcoursReducer || []);
+  // --------------------------------------------
+  const { data } = useFetchData(fetchCareersData);
 
-  const reversedParcours = [...parcours].reverse();
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    return <p>Aucune donnée disponible</p>;
+  }
+  // --------------------------------------------
 
   return (
     <section id="parcours" className="section parcours">
@@ -13,7 +17,7 @@ export default function CareerSection() {
 
       <div className="containerParcours">
         <div className="barre"></div>
-        {reversedParcours.map((unParcours, index) => (
+        {data.map((unParcours, index) => (
           <div key={index} className="boxParcour">
             <div className="rond"></div>
             <div className="boxText">
