@@ -1,21 +1,21 @@
-@import '../main.scss';
+@import "../main.scss";
 
 footer {
-    width: 100%;
-    background-color: $colorPrimary;
-    box-shadow: 0px -10px 15px 3px rgba(0, 0, 0, 0.48);
-    height: 150px;
-    @include display(flex, column, center, center);
+  width: 100%;
+  background-color: $colorPrimary;
+  box-shadow: 0px -10px 15px 3px rgba(0, 0, 0, 0.48);
+  height: 150px;
+  @include display(flex, column, center, center);
+  font-size: 1.5em;
+
+  .networks i {
     font-size: 1.5em;
+    margin: 5px;
+    transition: 0.3s;
+    color: #000000;
 
-    .networks i {
-        font-size: 1.5em;
-        margin: 5px;
-        transition: .3s;
-        color: #000000;
-
-        &:hover {
-            transform: translateY(-5px);
-        }
+    &:hover {
+      transform: translateY(-5px);
     }
+  }
 }

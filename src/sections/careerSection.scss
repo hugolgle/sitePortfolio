@@ -1,110 +1,106 @@
-@import '../main.scss';
+@import "../main.scss";
 
 section.parcours {
-    @include display(flex, column, center, center);
+  @include display(flex, column, center, center);
 }
 
 div.containerParcours {
-    @include display(flex, column, center, center);
-    gap: 20px;
-    min-width: 25%;
-    position: relative;
+  @include display(flex, column, center, center);
+  gap: 20px;
+  min-width: 25%;
+  position: relative;
 
-    div.barre {
-        position: absolute;
-        height: 90%;
-        width: 3px;
+  div.barre {
+    position: absolute;
+    height: 90%;
+    width: 3px;
+    background-color: $colorSecondary;
+    @include display(flex, column, normal, normal);
+    border-radius: 15px 15px 0 0;
+    margin-left: 13.5px;
+    left: 0;
+    bottom: 0;
+  }
+
+  div.boxParcour {
+    @include display(flex, row, space-between, center);
+    width: 100%;
+
+    div.rond {
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: $colorSecondary;
+    }
+
+    div.boxText {
+      width: 90%;
+      max-width: 480px;
+      min-height: 145px;
+      padding: 10px;
+      background-color: $colorPrimary;
+      border-radius: 10px;
+      @include display(flex, column, normal, normal);
+      box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+
+      h3 {
+        font-size: 1.5em;
+      }
+
+      hr {
+        width: 50px;
+        height: 3px;
+        border-radius: 50px;
         background-color: $colorSecondary;
-        @include display(flex, column, normal, normal);
-        border-radius: 15px 15px 0 0;
-        margin-left: 13.5px;
-        left: 0;
-        bottom: 0;
+        border: none;
+      }
+
+      p {
+        font-size: 1.5em;
+        margin: 5px 0;
+      }
     }
-
-    div.boxParcour {
-        @include display(flex, row, space-between, center);
-        width: 100%;
-
-        div.rond {
-            width: 30px;
-            height: 30px;
-            border-radius: 50px;
-            background-color: $colorSecondary;
-        }
-
-        div.boxText {
-            width: 90%;
-            max-width: 480px;
-            min-height: 145px;
-            padding: 10px;
-            background-color: $colorPrimary;
-            border-radius: 10px;
-            @include display(flex, column, normal, normal);
-            box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
-
-            h3 {
-                font-size: 1.5em;
-            }
-
-            hr {
-                width: 50px;
-                height: 3px;
-                border-radius: 50px;
-                background-color: $colorSecondary;
-                border: none;
-            }
-
-            p {
-                font-size: 1.5em;
-                margin: 5px 0;
-            }
-        }
-    }
+  }
 }
 
 @media screen and (max-width: 480px) {
-
-    div.containerParcours {
-
-        div.barre {
-            position: absolute;
-            height: 90%;
-            width: 3px;
-            background-color: $colorSecondary;
-            @include display(flex, column, normal, normal);
-            border-radius: 15px 15px 0 0;
-            margin-left: 13.5px;
-            left: 0;
-            bottom: 0;
-        }
-
-        div.boxParcour {
-
-            div.rond {
-                width: 30px;
-                height: 30px;
-            }
-
-            div.boxText {
-
-                h3 {
-                    font-size: 1.5em;
-                }
-
-                hr {
-                    width: 50px;
-                    height: 3px;
-                    border-radius: 50px;
-                    background-color: $colorSecondary;
-                    border: none;
-                }
-
-                p {
-                    font-size: 1.5em;
-                    margin: 5px 0;
-                }
-            }
-        }
+  div.containerParcours {
+    div.barre {
+      position: absolute;
+      height: 90%;
+      width: 3px;
+      background-color: $colorSecondary;
+      @include display(flex, column, normal, normal);
+      border-radius: 15px 15px 0 0;
+      margin-left: 13.5px;
+      left: 0;
+      bottom: 0;
     }
+
+    div.boxParcour {
+      div.rond {
+        width: 30px;
+        height: 30px;
+      }
+
+      div.boxText {
+        h3 {
+          font-size: 1.5em;
+        }
+
+        hr {
+          width: 50px;
+          height: 3px;
+          border-radius: 50px;
+          background-color: $colorSecondary;
+          border: none;
+        }
+
+        p {
+          font-size: 1.5em;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
 }

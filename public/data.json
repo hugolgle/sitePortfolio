@@ -1,488 +1,488 @@
 {
-    "realisations": [
+  "realisations": [
+    {
+      "id": "1",
+      "ecole": "BTS SIO",
+      "title": "AP1-1-siteSIOVHB",
+      "semestre": "Semestre 1",
+      "mission": "",
+      "context": "",
+      "skills": "",
+      "ressource": "",
+      "date": "Septembre 2020",
+      "image": "./images/imgProjetBTS/projet_1.png"
+    },
+    {
+      "id": "2",
+      "ecole": "BTS SIO",
+      "title": "AP1-2-FormationAuxOutilsNumeriques",
+      "semestre": "Semestre 1",
+      "mission": "Former les élèves et étudiants aux outils nécessaires pendant une séance sur poste informatique.",
+      "context": "Des professeurs du lycée Basch ont constaté que beaucoup de leurs élèves et étudiants ne connaissaient pas ou ne maîtrisaient pas certains logiciels pourtant nécessaires à leurs apprentissages. Ils s’adressent à vous afin d’accompagner ces élèves dans leur formation.",
+      "skills": "B1.4 – B1.5 – B1.6",
+      "ressource": "https://drive.google.com/drive/folders/11yQ5bA0q3tmo8Cft_jY3pJTmQRu4IN3N?usp=share_link",
+      "date": "Octobre 2020",
+      "image": "./images/imgProjetBTS/projet_2.png"
+    },
+    {
+      "id": "3",
+      "ecole": "BTS SIO",
+      "title": "AP1-3-GSB-InfraReseau",
+      "semestre": "Semestre 1",
+      "mission": "Instalation VM Ubuntu et Windows - Laboratoire GSB – Contexte et infrastructure réseau",
+      "context": "",
+      "skills": "B1.1 – B1.5",
+      "ressource": "https://drive.google.com/drive/folders/16tk2vb4e4mORhbO8i6g4hZqRCC3Dyb4A?usp=share_link",
+      "date": "Novembre 2020",
+      "image": "./images/imgProjetBTS/projet_3.jpg"
+    },
+    {
+      "id": "4",
+      "ecole": "BTS SIO",
+      "title": "AP-AtelierCyberSecurite",
+      "semestre": "Semestre 1",
+      "mission": "Prise de contrôle d’un système d’information.",
+      "context": "La machine Kali joue le rôle de l’attaquant du serveur cible. L’objectif terminal est de récupérer les données stockées dans les bases de données du serveur cible, et in fine de les supprimer du serveur cible. Cet objectif terminal passera par la prise de contrôle à distance du serveur cible.",
+      "skills": "B3.1 - B3.2 - B3.3 - B3.4 - B3.5",
+      "ressource": "https://drive.google.com/drive/folders/15Xk0MbADz_0kZYV-LM0DJ_2-AClmQK2R?usp=share_link",
+      "date": "Décembre 2020",
+      "image": "./images/imgProjetBTS/projet_4.jpg"
+    },
+    {
+      "id": "5",
+      "ecole": "BTS SIO",
+      "title": "AP2-0-DecouverteGestionProjets",
+      "semestre": "Semestre 2",
+      "mission": "Découverte de la gestion de projet.",
+      "context": "Pour assurer les missions qui lui sont confiées, l’étudiant en ST SIO travaille dans un environnement de gestion de projet, en mode projet, notamment lors des AP. Il doit faire preuve d’initiative, communique en permanence avec les autres membres de l’équipe projet, des membres de l’organisation ou des partenaires, dans le cadre d’un travail collaboratif ; et rend compte régulièrement à son responsable hiérarchique ou fonctionnel tout au long de l’état d’avancement du projet.",
+      "skills": "B1.3 - B1.4 – B3.1",
+      "ressource": "https://drive.google.com/drive/folders/1Rm7wrY2aIOW2Ix8Fc1LA0v6ZtPPH9JUP?usp=share_link",
+      "date": "Janvier 2021",
+      "image": "./images/imgProjetBTS/projet_5.png"
+    },
+    {
+      "id": "6",
+      "ecole": "BTS SIO",
+      "title": "AP2-1-DeploiementServeurAppliWeb",
+      "semestre": "Semestre 2",
+      "mission": "Vous êtes mandaté par le RSI de VHB pour intégrer la gestion de la fiche de validation de stage dans l’application web HistoStage dans l’environnement de recette. Ce site sera publié sur le serveur de recette LAMPP sécurisé par transfert de fichier via Visual Studio Code. Les informations de la FV seront à intégrer ultérieurement dans l’application HistoStage en production.",
+      "context": "Lycée VHB – Section STS-SIO",
+      "skills": "B1.1 – B1.2 – B1.4 – B1.5 – B1.6 – B3.1 – B3.2 – B3.4 – B3.5",
+      "ressource": "https://drive.google.com/drive/folders/1BcYd3QRgaNpr3V43dAIZ6O0pY5hZGRD_?usp=sharing",
+      "date": "Janvier 2021",
+      "image": "./images/imgProjetBTS/projet_6.jpg"
+    },
+    {
+      "id": "7",
+      "ecole": "BTS SIO",
+      "title": "AP3-1-Projet-GitLab-Admin",
+      "semestre": "Semestre 3",
+      "mission": "La solution consiste à s’appuyer sur l’API-Rest proposée par gitlab pour développer une application web spécifique permettant de sélectionner rapidement les ressources et d’appliquer la même action sur ces ressources.",
+      "context": "Dans le contexte de la section STS-SIO du lycée VHB, certaines opérations sont à mener sur plusieurs projets ou plusieurs utilisateurs. Les opérations unitaires proposées par l’application web gitlab se révèlent donc très fastidieuses dans ce contexte.",
+      "skills": "B1.1 – B1.2 – B1.4 – B1.5",
+      "ressource": "https://drive.google.com/drive/folders/12lQbJbsXNo5weLtu38IJOSLrifeF90hW?usp=sharing",
+      "date": "Novembre 2021",
+      "image": "./images/imgProjetBTS/projet_7.png"
+    },
+    {
+      "id": "8",
+      "ecole": "BTS SIO",
+      "title": "AP3-2-GSB_VisitesMedecins",
+      "semestre": "Semestre 3",
+      "mission": "Projet d’évolutions sur les services web visant à offrir aux visiteurs médicaux de GSB l’ensemble des informations dont ils ont besoin lors de leurs visites : coordonnées des médecins, les rapports de visite ...",
+      "context": "L’activité commerciale d’un laboratoire pharmaceutique est principalement réalisée par les visiteurs médicaux. En effet, un médicament remboursé par la sécurité sociale n’est jamais vendu directement au consommateur mais prescrit au patient par son médecin. Toute communication publicitaire sur les médicaments remboursés est d’ailleurs interdite par la loi. Il est donc important, pour l’industrie pharmaceutique, de promouvoir ses produits directement auprès des praticiens.",
+      "skills": "B1.1 – B1.4",
+      "ressource": "https://drive.google.com/drive/folders/1V9aR4B7CYcjae-MBXZar_EY3nEHEBrtP?usp=sharing",
+      "date": "Mars 2022",
+      "image": "./images/imgProjetBTS/projet_8.jpg"
+    },
+    {
+      "id": "9",
+      "ecole": "BTS SIO",
+      "title": "AP4-1-GSB-VisMedAndroid",
+      "semestre": "Semestre 4",
+      "mission": "Comme l’ensemble des tablettes utilisées par les visiteurs hébergera l’OS Android, il a été décidé de réaliser une application mobile native Android. Elle sera développée en langage Java avec accès distant aux données gérées par des services web de type REST. Les services web de type REST sont hébergés sur le poste de développement lors de la réalisation, puis sur le serveur de recette lors de la recette.",
+      "context": "Le laboratoire Galaxy Swiss Bourdin – GSB – est amené dans ses différentes activités à contacter et visiter les médecins. Les visiteurs médicaux du laboratoire se déplacent afin de présenter les nouveaux produits pharmaceutiques et récolter différentes remarques des médecins concernant ces produits.",
+      "skills": "B1.4",
+      "ressource": "https://drive.google.com/drive/folders/1XO959nFtzhzfac6uN4jKmdQTTJOUZbq5?usp=sharing",
+      "date": "Mai 2022",
+      "image": "./images/imgProjetBTS/projet_9.jpg"
+    },
+    {
+      "id": "10",
+      "ecole": "OpenClassrooms",
+      "title": "Booki",
+      "mission": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
+      "context": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.",
+      "skills": [
         {
+          "id": "skill_1",
+          "skill": "- Implémenter une interface responsive avec HTML et CSS"
+        },
+        {
+          "id": "skill_2",
+          "skill": "- Installer un environnement de développement front-end"
+        },
+        {
+          "id": "skill_3",
+          "skill": "- Intégrer du contenu conformément à une maquette avec HTML et CSS"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/booki",
+      "techno": "HTML/CSS",
+      "date": "Octobre 2023",
+      "image": "./images/imgProjetOC/projet_1.jpg"
+    },
+    {
+      "id": "11",
+      "ecole": "OpenClassrooms",
+      "title": "Ohmyfood",
+      "mission": "Améliorez l'interface d'un site mobile avec des animations CSS.",
+      "context": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "- Intégrer une maquette en mobile-first"
+        },
+        {
+          "id": "skill_2",
+          "skill": "- Mettre en œuvre des animations CSS"
+        },
+        {
+          "id": "skill_3",
+          "skill": "- Versionner son projet avec Git et Github"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/ohmyfood",
+      "techno": "HTML/CSS",
+      "date": "Novembre 2023",
+      "image": "./images/imgProjetOC/projet_2.jpg"
+    },
+    {
+      "id": "12",
+      "ecole": "OpenClassrooms",
+      "title": "Sophie Buel",
+      "mission": "Créez une page web dynamique avec JavaScript.",
+      "context": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "- Gérer les événements utilisateurs avec JavaScript"
+        },
+        {
+          "id": "skill_2",
+          "skill": "- Manipuler les éléments du DOM avec JavaScript"
+        },
+        {
+          "id": "skill_3",
+          "skill": "- Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/Sophie-bluel",
+      "techno": "HTML/CSS/JS",
+      "date": "Décembre 2023",
+      "image": "./images/imgProjetOC/projet_3.jpg"
+    },
+    {
+      "id": "13",
+      "ecole": "OpenClassrooms",
+      "title": "Kasa",
+      "mission": "Créez une application web de location immobilière avec React.",
+      "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "- Configurer la navigation entre les pages de l'application avec React Router"
+        },
+        {
+          "id": "skill_2",
+          "skill": "- Développer des éléments de l'interface d'un site web grâce à des composants React"
+        },
+        {
+          "id": "skill_3",
+          "skill": "- Mettre en œuvre des animations CSS"
+        },
+        {
+          "id": "skill_4",
+          "skill": "- Développer une interface web avec Sass"
+        },
+        {
+          "id": "skill_5",
+          "skill": "- Initialiser une application avec Create React App"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/kasa",
+      "techno": "REACT",
+      "date": "Février 2024",
+      "image": "./images/imgProjetOC/projet_4.jpg"
+    },
+    {
+      "id": "14",
+      "ecole": "OpenClassrooms",
+      "title": "Argent Bank",
+      "mission": "Implémentez le front-end d'une application bancaire avec React.",
+      "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "- Afficher les données du back end sur l'interface via des appels API"
+        },
+        {
+          "id": "skill_2",
+          "skill": "- Configurer des routes API pour la communication client / serveur"
+        },
+        {
+          "id": "skill_3",
+          "skill": "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/ArgentBank-website",
+      "techno": "REACT",
+      "date": "Mars 2024",
+      "image": "./images/imgProjetOC/projet_5.jpg"
+    }
+  ],
+  "xpPro": [
+    {
+      "id": "1",
+      "type": "Stage",
+      "domaine": "Développement informatique",
+      "title": "La Mairie de Saint-Avé",
+      "mission": "Migrer un site web sous WordPress.",
+      "context": "J’effectue mon stage au service informatique de la Mairie de Saint Avé, avec mon tuteur qui est directeur du Système d’Information et de l’Organisation de la mairie.",
+      "text": "Le site Evolugame en 2005 destiné aux enfants de St Avé a pour but d' améliorer la qualité du service de l’enfance. En revanche, il n’y avait pas d’administrateur, c’était une équipe de rédacteurs qui gérait le site. Depuis 2013, le site est de moins en moins géré du fait d’un manque de temps et de personnel. On m’a donc donné ce projet de création de site qui doit être plus moderne et sécurisé.<br>En 2005, celui-ci était hébergé sur Free et réalisé dans une version ancienne de CMS : PHPNuke. Le nouveau site va être hébergé sur OVH. [IMG] Aperçu de l’ancien site evolugame<br>Pour ce nouveau site, j’ai pour mission d’utiliser une solution plus pérenne et sécurisée en utilisant le CMS : WordPress. Je dois conserver le même bandeau, les principales fonctionnalités, c’est-à-dire le module de contact, les statistiques du site et les crédits du site. Je dois aussi mettre en place le protocole https. Je dois aussi garder les mêmes codes couleurs et la police du texte.<br>Pour réaliser cette mission, j’ai donc eu besoin de plusieurs logiciels : WordPress, phpmyadmin, mySQL, Visual Studio 2019 et Filezilla.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "- B1.3 Développer la présence en ligne de l’organisation"
+        },
+        {
+          "id": "skill_2",
+          "skill": "- B1.4 Travailler en mode projet"
+        },
+        {
+          "id": "skill_3",
+          "skill": "- B1.6 Organiser son développement professionnel"
+        },
+        {
+          "id": "skill_4",
+          "skill": "- B2.1 Concevoir et développer une solution applicative – Analyse d’un besoin exprimé et de son contexte juridique"
+        },
+        {
+          "id": "skill_5",
+          "skill": "- B3.5 A – SLAM – Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service"
+        }
+      ],
+      "liens": [
+        {
+          "text": "Mes comptes rendus",
+          "lien": "https://drive.google.com/drive/u/1/folders/1iTvwaKBnV4YY5VOOthcBXzwhsQ8Jzni1"
+        },
+        {
+          "text": "Ma documentation",
+          "lien": "https://docs.google.com/document/d/1umts2WgVG5Iv3BTeZKj9971lUpCTsjVCn2OStX2nenc/edit"
+        }
+      ],
+      "date": "2021",
+      "image": {
+        "img1": "./images/imgStageBTS/saintave/imgstagelogostave.jpg",
+        "img2": "./images/imgStageBTS/saintave/imgstagesite.png"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Stage",
+      "domaine": "Développement informatique",
+      "title": "La Maison des Chaudoudoux",
+      "mission": "Améliorer et corriger l'application interne de l'association.",
+      "missions": [
+        {
+          "mission": {
             "id": "1",
-            "ecole": "BTS SIO",
-            "title": "AP1-1-siteSIOVHB",
-            "semestre": "Semestre 1",
-            "mission": "",
-            "context": "",
-            "skills": "",
-            "ressource": "",
-            "date": "Septembre 2020",
-            "image": "./images/imgProjetBTS/projet_1.png"
+            "title": "Menu ville et code postal",
+            "objectif": "Le but était d'uniformiser le nom de ville pour éviter d’avoir dans la base de donnée plusieurs noms de ville indiquant la même ville écrit différemment et de faciliter la saisie du code postal et éviter les erreurs pour l’utilisateur",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1tNWi97jdK7ZRoUm3a7nV-ucWaSaZsL1j",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img1.png"
+              },
+              {
+                "id": "img2",
+                "image": "./images/imgStageBTS/lmdc/img2.png"
+              }
+            ]
+          }
         },
         {
+          "mission": {
             "id": "2",
-            "ecole": "BTS SIO",
-            "title": "AP1-2-FormationAuxOutilsNumeriques",
-            "semestre": "Semestre 1",
-            "mission": "Former les élèves et étudiants aux outils nécessaires pendant une séance sur poste informatique.",
-            "context": "Des professeurs du lycée Basch ont constaté que beaucoup de leurs élèves et étudiants ne connaissaient pas ou ne maîtrisaient pas certains logiciels pourtant nécessaires à leurs apprentissages. Ils s’adressent à vous afin d’accompagner ces élèves dans leur formation.",
-            "skills": "B1.4 – B1.5 – B1.6",
-            "ressource": "https://drive.google.com/drive/folders/11yQ5bA0q3tmo8Cft_jY3pJTmQRu4IN3N?usp=share_link",
-            "date": "Octobre 2020",
-            "image": "./images/imgProjetBTS/projet_2.png"
+            "title": "Création d’une base de donnée de test",
+            "objectif": "Le but est de pouvoir travailler sur une base de données avec des fausses données pour protéger les vraies",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1KGd1eCJZ4AY8ihGqoEr4m-o09-vVU8MM"
+          }
         },
         {
+          "mission": {
             "id": "3",
-            "ecole": "BTS SIO",
-            "title": "AP1-3-GSB-InfraReseau",
-            "semestre": "Semestre 1",
-            "mission": "Instalation VM Ubuntu et Windows - Laboratoire GSB – Contexte et infrastructure réseau",
-            "context": "",
-            "skills": "B1.1 – B1.5",
-            "ressource": "https://drive.google.com/drive/folders/16tk2vb4e4mORhbO8i6g4hZqRCC3Dyb4A?usp=share_link",
-            "date": "Novembre 2020",
-            "image": "./images/imgProjetBTS/projet_3.jpg"
+            "title": "Ajout dans l’accueil d’une procédure d’export et d’import",
+            "objectif": "Permettre à l’utilisateur d’exporter et d’importer la base de données en toute sécurité",
+            "description": "",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1peb9TlsD_Ga1wtx78z3aQFxKzriM29pL",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img4.png",
+                "description": "Procédure d’export et d’import de la base"
+              }
+            ]
+          }
         },
         {
+          "mission": {
             "id": "4",
-            "ecole": "BTS SIO",
-            "title": "AP-AtelierCyberSecurite",
-            "semestre": "Semestre 1",
-            "mission": "Prise de contrôle d’un système d’information.",
-            "context": "La machine Kali joue le rôle de l’attaquant du serveur cible. L’objectif terminal est de récupérer les données stockées dans les bases de données du serveur cible, et in fine de les supprimer du serveur cible. Cet objectif terminal passera par la prise de contrôle à distance du serveur cible.",
-            "skills": "B3.1 - B3.2 - B3.3 - B3.4 - B3.5",
-            "ressource": "https://drive.google.com/drive/folders/15Xk0MbADz_0kZYV-LM0DJ_2-AClmQK2R?usp=share_link",
-            "date": "Décembre 2020",
-            "image": "./images/imgProjetBTS/projet_4.jpg"
+            "title": "Ajout de 4 boutons dans le carnet d’adresse de la liste des emails des intervenant à l’instant T",
+            "objectif": "Permettre à l’utilisateur d’envoyer un mail groupé aux intervenants qui sont actuellement prestataires",
+            "description": "Ajout de 4 boutons (mandataire, prestataire, prestataire garde d’enfants et prestataire ménage) qui permettent d’ ouvrir une page avec la liste des emails des intervenants qui sont actuellement en intervention de type : mandataire, prestataire, prestataire garde d’enfants, prestataire ménage",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1Xwy2gkTo3bBcC_VyF6_wqGYS2EYup8Zp",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img5.png",
+                "description": "Les 4 boutons ajoutés"
+              }
+            ]
+          }
         },
         {
+          "mission": {
             "id": "5",
-            "ecole": "BTS SIO",
-            "title": "AP2-0-DecouverteGestionProjets",
-            "semestre": "Semestre 2",
-            "mission": "Découverte de la gestion de projet.",
-            "context": "Pour assurer les missions qui lui sont confiées, l’étudiant en ST SIO travaille dans un environnement de gestion de projet, en mode projet, notamment lors des AP. Il doit faire preuve d’initiative, communique en permanence avec les autres membres de l’équipe projet, des membres de l’organisation ou des partenaires, dans le cadre d’un travail collaboratif ; et rend compte régulièrement à son responsable hiérarchique ou fonctionnel tout au long de l’état d’avancement du projet.",
-            "skills": "B1.3 - B1.4 – B3.1",
-            "ressource": "https://drive.google.com/drive/folders/1Rm7wrY2aIOW2Ix8Fc1LA0v6ZtPPH9JUP?usp=share_link",
-            "date": "Janvier 2021",
-            "image": "./images/imgProjetBTS/projet_5.png"
+            "title": "Correction du CSS",
+            "objectif": "Bien aligner les boutons",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1zu3ReD6eiIBhMjG15st7lqJRdfl3ggia"
+          }
         },
         {
+          "mission": {
             "id": "6",
-            "ecole": "BTS SIO",
-            "title": "AP2-1-DeploiementServeurAppliWeb",
-            "semestre": "Semestre 2",
-            "mission": "Vous êtes mandaté par le RSI de VHB pour intégrer la gestion de la fiche de validation de stage dans l’application web HistoStage dans l’environnement de recette. Ce site sera publié sur le serveur de recette LAMPP sécurisé par transfert de fichier via Visual Studio Code. Les informations de la FV seront à intégrer ultérieurement dans l’application HistoStage en production.",
-            "context": "Lycée VHB – Section STS-SIO",
-            "skills": "B1.1 – B1.2 – B1.4 – B1.5 – B1.6 – B3.1 – B3.2 – B3.4 – B3.5",
-            "ressource": "https://drive.google.com/drive/folders/1BcYd3QRgaNpr3V43dAIZ6O0pY5hZGRD_?usp=sharing",
-            "date": "Janvier 2021",
-            "image": "./images/imgProjetBTS/projet_6.jpg"
+            "title": "Champs modifié d’une intervention à corriger en back-end",
+            "objectif": "Corriger l’erreur car les champs “Une semaine sur” et “Choix famille” étaient impossibles. Les modifications ne s’enregistraient pas dans la base car le taux horaire faisait une division par 0 ce qui est impossible et faisait bugger l’application.",
+            "description": "",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1zbePFLbj0DTIR1v-UXupVPbJYdtUxXHm",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img7.png"
+              }
+            ]
+          }
         },
         {
+          "mission": {
             "id": "7",
-            "ecole": "BTS SIO",
-            "title": "AP3-1-Projet-GitLab-Admin",
-            "semestre": "Semestre 3",
-            "mission": "La solution consiste à s’appuyer sur l’API-Rest proposée par gitlab pour développer une application web spécifique permettant de sélectionner rapidement les ressources et d’appliquer la même action sur ces ressources.",
-            "context": "Dans le contexte de la section STS-SIO du lycée VHB, certaines opérations sont à mener sur plusieurs projets ou plusieurs utilisateurs. Les opérations unitaires proposées par l’application web gitlab se révèlent donc très fastidieuses dans ce contexte.",
-            "skills": "B1.1 – B1.2 – B1.4 – B1.5",
-            "ressource": "https://drive.google.com/drive/folders/12lQbJbsXNo5weLtu38IJOSLrifeF90hW?usp=sharing",
-            "date": "Novembre 2021",
-            "image": "./images/imgProjetBTS/projet_7.png"
+            "title": "Date fin d’intervention ne doit pas être avant la date de début",
+            "objectif": "Empêcher la saisie d’une date de fin inférieure à celle de début.",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1gnvZpz3Nt1OzdEq9zrGG-Cm5Uf1Re5V8",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img8.png"
+              }
+            ]
+          }
         },
         {
+          "mission": {
             "id": "8",
-            "ecole": "BTS SIO",
-            "title": "AP3-2-GSB_VisitesMedecins",
-            "semestre": "Semestre 3",
-            "mission": "Projet d’évolutions sur les services web visant à offrir aux visiteurs médicaux de GSB l’ensemble des informations dont ils ont besoin lors de leurs visites : coordonnées des médecins, les rapports de visite ...",
-            "context": "L’activité commerciale d’un laboratoire pharmaceutique est principalement réalisée par les visiteurs médicaux. En effet, un médicament remboursé par la sécurité sociale n’est jamais vendu directement au consommateur mais prescrit au patient par son médecin. Toute communication publicitaire sur les médicaments remboursés est d’ailleurs interdite par la loi. Il est donc important, pour l’industrie pharmaceutique, de promouvoir ses produits directement auprès des praticiens.",
-            "skills": "B1.1 – B1.4",
-            "ressource": "https://drive.google.com/drive/folders/1V9aR4B7CYcjae-MBXZar_EY3nEHEBrtP?usp=sharing",
-            "date": "Mars 2022",
-            "image": "./images/imgProjetBTS/projet_8.jpg"
+            "title": "Ajouter à l’accueil une case : les intervenantes suivantes sont archivé et sont toujours présente dans les planning des familles",
+            "objectif": "Repérer facilement les intervenantes archivées et celles qui sont présentes dans les plannings des familles. En effet, l’utilisateur doit certainement cocher “archivé” dans la fiche intervenante à son départ de la structure mais il doit aussi terminer les plannings des intervenantes. Les intervenantes doivent être soit archivées soit présentes dans les plannings des familles mais ne peuvent pas être dans les deux.",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1k_-fKfIWVURg340OZIra8yP4-3x9C8_L",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img9.png"
+              }
+            ]
+          }
         },
         {
+          "mission": {
             "id": "9",
-            "ecole": "BTS SIO",
-            "title": "AP4-1-GSB-VisMedAndroid",
-            "semestre": "Semestre 4",
-            "mission": "Comme l’ensemble des tablettes utilisées par les visiteurs hébergera l’OS Android, il a été décidé de réaliser une application mobile native Android. Elle sera développée en langage Java avec accès distant aux données gérées par des services web de type REST. Les services web de type REST sont hébergés sur le poste de développement lors de la réalisation, puis sur le serveur de recette lors de la recette.",
-            "context": "Le laboratoire Galaxy Swiss Bourdin – GSB – est amené dans ses différentes activités à contacter et visiter les médecins. Les visiteurs médicaux du laboratoire se déplacent afin de présenter les nouveaux produits pharmaceutiques et récolter différentes remarques des médecins concernant ces produits.",
-            "skills": "B1.4",
-            "ressource": "https://drive.google.com/drive/folders/1XO959nFtzhzfac6uN4jKmdQTTJOUZbq5?usp=sharing",
-            "date": "Mai 2022",
-            "image": "./images/imgProjetBTS/projet_9.jpg"
-        },
-        {
-            "id": "10",
-            "ecole": "OpenClassrooms",
-            "title": "Booki",
-            "mission": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
-            "context": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.",
-            "skills": [
-                {
-                    "id": "skill_1",
-                    "skill": "- Implémenter une interface responsive avec HTML et CSS"
-                },
-                {
-                    "id": "skill_2",
-                    "skill": "- Installer un environnement de développement front-end"
-                },
-                {
-                    "id": "skill_3",
-                    "skill": "- Intégrer du contenu conformément à une maquette avec HTML et CSS"
-                }
-            ],
-            "ressource": "https://github.com/hugolgle/booki",
-            "techno": "HTML/CSS",
-            "date": "Octobre 2023",
-            "image": "./images/imgProjetOC/projet_1.jpg"
-        },
-        {
-            "id": "11",
-            "ecole": "OpenClassrooms",
-            "title": "Ohmyfood",
-            "mission": "Améliorez l'interface d'un site mobile avec des animations CSS.",
-            "context": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
-            "skills": [
-                {
-                    "id": "skill_1",
-                    "skill": "- Intégrer une maquette en mobile-first"
-                },
-                {
-                    "id": "skill_2",
-                    "skill": "- Mettre en œuvre des animations CSS"
-                },
-                {
-                    "id": "skill_3",
-                    "skill": "- Versionner son projet avec Git et Github"
-                }
-            ],
-            "ressource": "https://github.com/hugolgle/ohmyfood",
-            "techno": "HTML/CSS",
-            "date": "Novembre 2023",
-            "image": "./images/imgProjetOC/projet_2.jpg"
-        },
-        {
-            "id": "12",
-            "ecole": "OpenClassrooms",
-            "title": "Sophie Buel",
-            "mission": "Créez une page web dynamique avec JavaScript.",
-            "context": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
-            "skills": [
-                {
-                    "id": "skill_1",
-                    "skill": "- Gérer les événements utilisateurs avec JavaScript"
-                },
-                {
-                    "id": "skill_2",
-                    "skill": "- Manipuler les éléments du DOM avec JavaScript"
-                },
-                {
-                    "id": "skill_3",
-                    "skill": "- Récupérer les données utilisateurs dans le JavaScript via des formulaires"
-                }
-            ],
-            "ressource": "https://github.com/hugolgle/Sophie-bluel",
-            "techno": "HTML/CSS/JS",
-            "date": "Décembre 2023",
-            "image": "./images/imgProjetOC/projet_3.jpg"
-        },
-        {
-            "id": "13",
-            "ecole": "OpenClassrooms",
-            "title": "Kasa",
-            "mission": "Créez une application web de location immobilière avec React.",
-            "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
-            "skills": [
-                {
-                    "id": "skill_1",
-                    "skill": "- Configurer la navigation entre les pages de l'application avec React Router"
-                },
-                {
-                    "id": "skill_2",
-                    "skill": "- Développer des éléments de l'interface d'un site web grâce à des composants React"
-                },
-                {
-                    "id": "skill_3",
-                    "skill": "- Mettre en œuvre des animations CSS"
-                },
-                {
-                    "id": "skill_4",
-                    "skill": "- Développer une interface web avec Sass"
-                },
-                {
-                    "id": "skill_5",
-                    "skill": "- Initialiser une application avec Create React App"
-                }
-            ],
-            "ressource": "https://github.com/hugolgle/kasa",
-            "techno": "REACT",
-            "date": "Février 2024",
-            "image": "./images/imgProjetOC/projet_4.jpg"
-        },
-        {
-            "id": "14",
-            "ecole": "OpenClassrooms",
-            "title": "Argent Bank",
-            "mission": "Implémentez le front-end d'une application bancaire avec React.",
-            "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
-            "skills": [
-                {
-                    "id": "skill_1",
-                    "skill": "- Afficher les données du back end sur l'interface via des appels API"
-                },
-                {
-                    "id": "skill_2",
-                    "skill": "- Configurer des routes API pour la communication client / serveur"
-                },
-                {
-                    "id": "skill_3",
-                    "skill": "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
-                }
-            ],
-            "ressource": "https://github.com/hugolgle/ArgentBank-website",
-            "techno": "REACT",
-            "date": "Mars 2024",
-            "image": "./images/imgProjetOC/projet_5.jpg"
+            "title": "Migrer le site web de chaudoudoux vers wordpress",
+            "objectif": "Créer un site qui doit être plus moderne et sécurisé.",
+            "ressource": "https://drive.google.com/drive/u/1/folders/1qT9G2fcMOlbjCFtZF491kJPJORG6Kp6o",
+            "apercu": [
+              {
+                "id": "img1",
+                "image": "./images/imgStageBTS/lmdc/img10.png"
+              }
+            ]
+          }
         }
-    ],
-    "xpPro": [
+      ],
+      "context": "La Maison des Chaudoudoux est une association spécialisée dans le placement d’intervenants au domicile des particuliers pour la garde d’enfants et l’entretien du domicile.L’association dispose d’une plateforme web interne dans le même style que HistoStage vue en AP, elle dispose aussi d’une base de données.Durant ce stage je serais en collaboration avec un autre stagiaire de la promotion, nous serons chargés de corriger et améliorer l’application interne.L’application web appelée appliChaudoudoux permet de consulter la liste des intervenants et des Familles, on peut aussi y enregistrer de nouveaux candidats qui deviendront peut-être de futurs intervenants. Elle permet aussi d’accéder aux plannings des intervenants et à la liste d’un carnet d’adresses e-mail.",
+      "blocsSkills": {
+        "bloc1": "Bloc 1 – Support et mise à disposition de services informatiques",
+        "bloc2": "Bloc 2 – Conception et développement d’applications",
+        "bloc3": "Bloc 3 – Cybersécurité des services informatiques"
+      },
+      "skills": [
         {
-            "id": "1",
-            "type": "Stage",
-            "domaine": "Développement informatique",
-            "title": "La Mairie de Saint-Avé",
-            "mission": "Migrer un site web sous WordPress.",
-            "context": "J’effectue mon stage au service informatique de la Mairie de Saint Avé, avec mon tuteur qui est directeur du Système d’Information et de l’Organisation de la mairie.",
-            "text": "Le site Evolugame en 2005 destiné aux enfants de St Avé a pour but d' améliorer la qualité du service de l’enfance. En revanche, il n’y avait pas d’administrateur, c’était une équipe de rédacteurs qui gérait le site. Depuis 2013, le site est de moins en moins géré du fait d’un manque de temps et de personnel. On m’a donc donné ce projet de création de site qui doit être plus moderne et sécurisé.<br>En 2005, celui-ci était hébergé sur Free et réalisé dans une version ancienne de CMS : PHPNuke. Le nouveau site va être hébergé sur OVH. [IMG] Aperçu de l’ancien site evolugame<br>Pour ce nouveau site, j’ai pour mission d’utiliser une solution plus pérenne et sécurisée en utilisant le CMS : WordPress. Je dois conserver le même bandeau, les principales fonctionnalités, c’est-à-dire le module de contact, les statistiques du site et les crédits du site. Je dois aussi mettre en place le protocole https. Je dois aussi garder les mêmes codes couleurs et la police du texte.<br>Pour réaliser cette mission, j’ai donc eu besoin de plusieurs logiciels : WordPress, phpmyadmin, mySQL, Visual Studio 2019 et Filezilla.",
-            "skills": [
-                {
-                    "id": "skill_1",
-                    "skill": "- B1.3 Développer la présence en ligne de l’organisation"
-                },
-                {
-                    "id": "skill_2",
-                    "skill": "- B1.4 Travailler en mode projet"
-                },
-                {
-                    "id": "skill_3",
-                    "skill": "- B1.6 Organiser son développement professionnel"
-                },
-                {
-                    "id": "skill_4",
-                    "skill": "- B2.1 Concevoir et développer une solution applicative – Analyse d’un besoin exprimé et de son contexte juridique"
-                },
-                {
-                    "id": "skill_5",
-                    "skill": "- B3.5 A – SLAM – Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service"
-                }
-            ],
-            "liens": [
-                {
-                    "text": "Mes comptes rendus",
-                    "lien": "https://drive.google.com/drive/u/1/folders/1iTvwaKBnV4YY5VOOthcBXzwhsQ8Jzni1"
-                },
-                {
-                    "text": "Ma documentation",
-                    "lien": "https://docs.google.com/document/d/1umts2WgVG5Iv3BTeZKj9971lUpCTsjVCn2OStX2nenc/edit"
-                }
-            ],
-            "date": "2021",
-            "image": {
-                "img1": "./images/imgStageBTS/saintave/imgstagelogostave.jpg",
-                "img2": "./images/imgStageBTS/saintave/imgstagesite.png"
-            }
+          "skill": "- B1.1 Gérer le patrimoine informatique"
         },
         {
-            "id": "2",
-            "type": "Stage",
-            "domaine": "Développement informatique",
-            "title": "La Maison des Chaudoudoux",
-            "mission": "Améliorer et corriger l'application interne de l'association.",
-            "missions": [
-                {
-                    "mission": {
-                        "id": "1",
-                        "title": "Menu ville et code postal",
-                        "objectif": "Le but était d'uniformiser le nom de ville pour éviter d’avoir dans la base de donnée plusieurs noms de ville indiquant la même ville écrit différemment et de faciliter la saisie du code postal et éviter les erreurs pour l’utilisateur",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1tNWi97jdK7ZRoUm3a7nV-ucWaSaZsL1j",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img1.png"
-                            },
-                            {
-                                "id": "img2",
-                                "image": "./images/imgStageBTS/lmdc/img2.png"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "2",
-                        "title": "Création d’une base de donnée de test",
-                        "objectif": "Le but est de pouvoir travailler sur une base de données avec des fausses données pour protéger les vraies",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1KGd1eCJZ4AY8ihGqoEr4m-o09-vVU8MM"
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "3",
-                        "title": "Ajout dans l’accueil d’une procédure d’export et d’import",
-                        "objectif": "Permettre à l’utilisateur d’exporter et d’importer la base de données en toute sécurité",
-                        "description": "",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1peb9TlsD_Ga1wtx78z3aQFxKzriM29pL",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img4.png",
-                                "description": "Procédure d’export et d’import de la base"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "4",
-                        "title": "Ajout de 4 boutons dans le carnet d’adresse de la liste des emails des intervenant à l’instant T",
-                        "objectif": "Permettre à l’utilisateur d’envoyer un mail groupé aux intervenants qui sont actuellement prestataires",
-                        "description": "Ajout de 4 boutons (mandataire, prestataire, prestataire garde d’enfants et prestataire ménage) qui permettent d’ ouvrir une page avec la liste des emails des intervenants qui sont actuellement en intervention de type : mandataire, prestataire, prestataire garde d’enfants, prestataire ménage",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1Xwy2gkTo3bBcC_VyF6_wqGYS2EYup8Zp",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img5.png",
-                                "description": "Les 4 boutons ajoutés"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "5",
-                        "title": "Correction du CSS",
-                        "objectif": "Bien aligner les boutons",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1zu3ReD6eiIBhMjG15st7lqJRdfl3ggia"
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "6",
-                        "title": "Champs modifié d’une intervention à corriger en back-end",
-                        "objectif": "Corriger l’erreur car les champs “Une semaine sur” et “Choix famille” étaient impossibles. Les modifications ne s’enregistraient pas dans la base car le taux horaire faisait une division par 0 ce qui est impossible et faisait bugger l’application.",
-                        "description": "",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1zbePFLbj0DTIR1v-UXupVPbJYdtUxXHm",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img7.png"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "7",
-                        "title": "Date fin d’intervention ne doit pas être avant la date de début",
-                        "objectif": "Empêcher la saisie d’une date de fin inférieure à celle de début.",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1gnvZpz3Nt1OzdEq9zrGG-Cm5Uf1Re5V8",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img8.png"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "8",
-                        "title": "Ajouter à l’accueil une case : les intervenantes suivantes sont archivé et sont toujours présente dans les planning des familles",
-                        "objectif": "Repérer facilement les intervenantes archivées et celles qui sont présentes dans les plannings des familles. En effet, l’utilisateur doit certainement cocher “archivé” dans la fiche intervenante à son départ de la structure mais il doit aussi terminer les plannings des intervenantes. Les intervenantes doivent être soit archivées soit présentes dans les plannings des familles mais ne peuvent pas être dans les deux.",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1k_-fKfIWVURg340OZIra8yP4-3x9C8_L",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img9.png"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "mission": {
-                        "id": "9",
-                        "title": "Migrer le site web de chaudoudoux vers wordpress",
-                        "objectif": "Créer un site qui doit être plus moderne et sécurisé.",
-                        "ressource": "https://drive.google.com/drive/u/1/folders/1qT9G2fcMOlbjCFtZF491kJPJORG6Kp6o",
-                        "apercu": [
-                            {
-                                "id": "img1",
-                                "image": "./images/imgStageBTS/lmdc/img10.png"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "context": "La Maison des Chaudoudoux est une association spécialisée dans le placement d’intervenants au domicile des particuliers pour la garde d’enfants et l’entretien du domicile.L’association dispose d’une plateforme web interne dans le même style que HistoStage vue en AP, elle dispose aussi d’une base de données.Durant ce stage je serais en collaboration avec un autre stagiaire de la promotion, nous serons chargés de corriger et améliorer l’application interne.L’application web appelée appliChaudoudoux permet de consulter la liste des intervenants et des Familles, on peut aussi y enregistrer de nouveaux candidats qui deviendront peut-être de futurs intervenants. Elle permet aussi d’accéder aux plannings des intervenants et à la liste d’un carnet d’adresses e-mail.",
-            "blocsSkills": {
-                "bloc1": "Bloc 1 – Support et mise à disposition de services informatiques",
-                "bloc2": "Bloc 2 – Conception et développement d’applications",
-                "bloc3": "Bloc 3 – Cybersécurité des services informatiques"
-            },
-            "skills": [
-                {
-                    "skill": "- B1.1 Gérer le patrimoine informatique"
-                },
-                {
-                    "skill": "- B1.2 Répondre aux incidents et aux demandes d’assistance et d’évolution"
-                },
-                {
-                    "skill": "- B1.3 Développer la présence en ligne de l’organisation"
-                },
-                {
-                    "skill": "- B1.4 Travailler en mode projet"
-                },
-                {
-                    "skill": "- B1.5 Mettre à disposition des utilisateurs un service informatique"
-                },
-                {
-                    "skill": "- B2.1 Concevoir et développer une solution applicative"
-                },
-                {
-                    "skill": "- B2.2 Assurer la maintenance corrective ou évolutive d’une solution applicative"
-                },
-                {
-                    "skill": "- B2.3 Gérer les données"
-                },
-                {
-                    "skill": "- B3.1 Protéger les données à caractère personnel"
-                },
-                {
-                    "skill": "- B3.2 Préserver l’identité numérique de l’organisation"
-                },
-                {
-                    "skill": "- B3.3 Sécuriser les équipements et les usages des utilisateurs"
-                },
-                {
-                    "skill": "- B3.4 Garantir la disponibilité, l’intégrité et la confidentialité des services informatiques et des données de l’organisation face aux cyberattaques"
-                },
-                {
-                    "skill": "- B3.5 A – SLAM – Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service"
-                }
-            ],
-            "image": {},
-            "liens": [
-                {
-                    "text": "Mes comptes rendus",
-                    "lien": "https://drive.google.com/drive/u/1/folders/1fLZk1daeWb8yBaG0pR-YQTzuGCkNFiWk"
-                },
-                {
-                    "text": "Mes documents",
-                    "lien": "https://drive.google.com/drive/u/1/folders/1ySfZbjmG_iIx3Z_bWJWPx-G2vbEolR91"
-                },
-                {
-                    "text": "Aperçu des tests réalisés",
-                    "lien": "https://drive.google.com/drive/u/1/folders/1Y9ktj8iVhJo9dHmsHbapEwYmm_KuB51Y"
-                }
-            ],
-            "date": "2022"
+          "skill": "- B1.2 Répondre aux incidents et aux demandes d’assistance et d’évolution"
+        },
+        {
+          "skill": "- B1.3 Développer la présence en ligne de l’organisation"
+        },
+        {
+          "skill": "- B1.4 Travailler en mode projet"
+        },
+        {
+          "skill": "- B1.5 Mettre à disposition des utilisateurs un service informatique"
+        },
+        {
+          "skill": "- B2.1 Concevoir et développer une solution applicative"
+        },
+        {
+          "skill": "- B2.2 Assurer la maintenance corrective ou évolutive d’une solution applicative"
+        },
+        {
+          "skill": "- B2.3 Gérer les données"
+        },
+        {
+          "skill": "- B3.1 Protéger les données à caractère personnel"
+        },
+        {
+          "skill": "- B3.2 Préserver l’identité numérique de l’organisation"
+        },
+        {
+          "skill": "- B3.3 Sécuriser les équipements et les usages des utilisateurs"
+        },
+        {
+          "skill": "- B3.4 Garantir la disponibilité, l’intégrité et la confidentialité des services informatiques et des données de l’organisation face aux cyberattaques"
+        },
+        {
+          "skill": "- B3.5 A – SLAM – Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service"
         }
-    ]
+      ],
+      "image": {},
+      "liens": [
+        {
+          "text": "Mes comptes rendus",
+          "lien": "https://drive.google.com/drive/u/1/folders/1fLZk1daeWb8yBaG0pR-YQTzuGCkNFiWk"
+        },
+        {
+          "text": "Mes documents",
+          "lien": "https://drive.google.com/drive/u/1/folders/1ySfZbjmG_iIx3Z_bWJWPx-G2vbEolR91"
+        },
+        {
+          "text": "Aperçu des tests réalisés",
+          "lien": "https://drive.google.com/drive/u/1/folders/1Y9ktj8iVhJo9dHmsHbapEwYmm_KuB51Y"
+        }
+      ],
+      "date": "2022"
+    }
+  ]
 }

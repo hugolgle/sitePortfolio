@@ -1,23 +1,14 @@
-import mysql from 'mysql';
+import mongoose from "mongoose";
 
-const connectDB = () => {
-    const connection = mysql.createConnection({
-        host: "localhost",
-        user: "root",
-        password: "root",
-        database: "portfolio",
-        socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock" // Assurez-vous que le chemin du socket est correct
-    });
-
-    connection.connect((err) => {
-        if (err) {
-            console.error("Erreur de connexion à la base de données :", err.stack);
-            return;
-        }
-        console.log("Connexion réussie à la base de données !");
-    });
-
-    return connection.promise(); // Utilisez .promise() pour activer le support des promesses
+const connectDB = async () => {
+  try {
+    mongoose.set("strictQuery", false);
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("Mongo connecté");
+  } catch (err) {
+    console.error("Erreur de connexion à MongoDB:", err.message);
+    process.exit(1);
+  }
 };
 
 export default connectDB;

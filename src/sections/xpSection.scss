@@ -1,45 +1,45 @@
-@import '../main.scss';
+@import "../main.scss";
 
 div.containerXpPro {
-    @include display(flex, row, center, center);
-    gap: 20px;
+  @include display(flex, row, center, center);
+  gap: 20px;
 
-    div.boxXpPro {
-        @include display(flex, column, space-between, center);
-        width: 450px;
-        min-height: 300px;
-        padding: 25px 10px;
-        background-color: $colorPrimary;
-        border-radius: 10px;
-        margin: 10px 20px;
-        box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
+  div.boxXpPro {
+    @include display(flex, column, space-between, center);
+    width: 450px;
+    min-height: 300px;
+    padding: 25px 10px;
+    background-color: $colorPrimary;
+    border-radius: 10px;
+    margin: 10px 20px;
+    box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
 
-        p.box {
-            font-size: 1.5em;
-        }
-
-        h2.box {
-            font-size: 2em;
-        }
-
-        h3.box {
-            font-size: 1.8em;
-            font-weight: 500;
-        }
-
-        div.skill p {
-            margin: 5px 0;
-        }
+    p.box {
+      font-size: 1.5em;
     }
+
+    h2.box {
+      font-size: 2em;
+    }
+
+    h3.box {
+      font-size: 1.8em;
+      font-weight: 500;
+    }
+
+    div.skill p {
+      margin: 5px 0;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-    div.containerXpPro {
-        @include display(flex, column, center, center);
+  div.containerXpPro {
+    @include display(flex, column, center, center);
 
-        div.boxXpPro {
-            @include display(flex, column, center, center);
-            width: 100%;
-        }
+    div.boxXpPro {
+      @include display(flex, column, center, center);
+      width: 100%;
     }
+  }
 }

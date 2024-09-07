@@ -1,37 +1,37 @@
-@import '../main.scss';
+@import "../main.scss";
 
 button {
-    border: none;
-    width: auto;
-    height: auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: .4s;
-    padding: 10px 15px;
-    color: #000000;
+  border: none;
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px 15px;
+  color: #000000;
 
-    &.btnFilter {
-        margin: 15px 10px;
-        padding: 5px 12px;
-
-        &:hover {
-            background-color: $colorSecondary;
-            scale: 0.95;
-            box-shadow: none;
-        }
-    }
-
-    &.active {
-        background-color: $colorSecondary;
-        color: white;
-    }
+  &.btnFilter {
+    margin: 15px 10px;
+    padding: 5px 12px;
 
     &:hover {
-        background-color: #000000;
-        color: white;
-        box-shadow: -1px 20px 15px -15px #000000;
-        scale: 0.95;
+      background-color: $colorSecondary;
+      scale: 0.95;
+      box-shadow: none;
     }
+  }
+
+  &.active {
+    background-color: $colorSecondary;
+    color: white;
+  }
+
+  &:hover {
+    background-color: #000000;
+    color: white;
+    box-shadow: -1px 20px 15px -15px #000000;
+    scale: 0.95;
+  }
 }
