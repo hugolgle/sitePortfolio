@@ -21,3 +21,11 @@ export const fetchProjectsData = () =>
     }
     return response.json();
   });
+
+export const fetchXpProsData = () =>
+  fetch("http://localhost:5001/xppro").then((response) => {
+    if (!response.ok) {
+      return Promise.reject(new Error("Network response was not ok"));
+    }
+    return response.json();
+  });

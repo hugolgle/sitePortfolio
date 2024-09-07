@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./xpSection.scss";
 
-import { xpPro } from "../../public/data.json";
 import Button from "../components/button";
 import Modal from "../components/modal";
+import { useFetchData } from "../api/fetch";
+import { fetchXpProsData } from "../api/data";
 
 export default function XpSection() {
   const [modalIndex, setModalIndex] = useState(null);
+  // --------------------------------------------
+  const { data } = useFetchData(fetchXpProsData);
+
+  if (!data || !Array.isArray(data) || data.length === 0) {
+    return <p>Aucune donnée disponible</p>;
+  }
+  // --------------------------------------------
 
   const handleOpenModal = (index) => {
     setModalIndex(index);
@@ -21,7 +29,7 @@ export default function XpSection() {
       <h1>Expériences professionnelles</h1>
 
       <div className="containerXpPro">
-        {xpPro.map((xp, index) => (
+        {data.map((xp, index) => (
           <div className="boxXpPro" key={index}>
             <p className="box">
               {xp.type} - {xp.domaine} - {xp.date}
@@ -48,8 +56,8 @@ export default function XpSection() {
                     <b>Contexte:</b> {xp.context}
                   </p>
                 </div>
-                {xp.image.img1 != "" ? <img src={xp.image.img1} /> : ""}
-                <div className="containModal">
+                {/* {xp.image.img1 != "" ? <img src={xp.image.img1} /> : ""} */}
+                {/* <div className="containModal">
                   {xp.image.img2 !== "" &&
                     xp.text &&
                     xp.text.split("[IMG]").map((textPart, index) => (
@@ -60,9 +68,9 @@ export default function XpSection() {
                         ))}
                       </React.Fragment>
                     ))}
-                </div>
+                </div> */}
                 <div className="containModal">
-                  {xp.missions && (
+                  {/* {xp.missions && (
                     <div>
                       <h2 className="textMission">Missions</h2>
                       {xp.missions.map(({ mission }) => (
@@ -96,14 +104,14 @@ export default function XpSection() {
                                     <img src={image} alt="Aperçu" />
                                     <p className="description">{description}</p>
                                   </div>
-                                ),
+                                )
                               )}
                             </div>
                           )}
                         </div>
                       ))}
                     </div>
-                  )}
+                  )} */}
                 </div>
                 <div className="containModal">
                   <b>Compétences:</b>
@@ -114,15 +122,15 @@ export default function XpSection() {
                   ))}
                 </div>
                 <div className="containModal">
-                  {xp.liens &&
-                    xp.liens.map(({ key, text, lien }) => (
+                  {xp.link &&
+                    xp.link.map((link, key) => (
                       <div key={key} className="link">
                         <a
-                          href={lien}
+                          href={link.url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {text}
+                          {link.text}
                         </a>
                       </div>
                     ))}
